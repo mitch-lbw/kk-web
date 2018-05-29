@@ -7,7 +7,7 @@ contains all sources and content for kryptokrauts.com
 Just clone the repo:
 
 ``` sh
-$ git clone git@github.com:kryptokrauts/hugo-icarus-theme.git
+$ git clone git@github.com:kryptokrauts/kk-web.git
 ```
 
 And run development server:
@@ -21,7 +21,3 @@ To build static files:
 ``` sh
 $ docker-compose run hugo
 ```
-
-## Deployment
-Project is setup to automatically deploy `source` branch with CircleCI. Just
-merge changes to it and it will soon be deployed.
