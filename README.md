@@ -21,3 +21,16 @@ To build static files:
 ``` sh
 $ docker-compose run hugo
 ```
+
+
+If hugo binary is available, start server:
+
+``` sh
+$ hugo server
+```
+
+To build static files:
+
+``` sh
+$ hugo
+```
