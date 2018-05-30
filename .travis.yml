@@ -4,13 +4,13 @@
 # will not have any issues running hugo
 language: go
 go:
-- 1.10
+- 1.9
 env:
   global:
   - HUGO_VERSION=0.41  # set in the environment to make it easy 
-  matrix:
+    #matrix:
     # would be a long string; removed to read easier here.
-    secure: <secure_token>
+    # secure: <secure_token>
 # install hugo before the build is run; download the public
 # release, untar, and copy it to a known location
 before_install:
