@@ -21,3 +21,29 @@ To build static files:
 ``` sh
 $ docker-compose run hugo
 ```
+
+
+If hugo binary is available, start server:
+
+``` sh
+$ hugo server
+```
+
+To build static files:
+
+``` sh
+$ hugo
+```
+
+To install hugo on Linux:
+
+``` sh
+$ curl -L https://github.com/gohugoio/hugo/releases/download/v0.41/hugo_0.41_linux-64bit.tar.gz | tar -xz && mv hugo /usr/local/bin/hugo
+```
+
+To install hugo on Windows, use [Chocolatey](https://chocolatey.org/):
+``` sh
+$ choco install hugo -confirm
+```
+
+
