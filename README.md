@@ -1,5 +1,13 @@
 # kryptokrauts.com
+[![Build Status](https://travis-ci.org/kryptokrauts/kk-web.svg?branch=master)](https://travis-ci.org/kryptokrauts/kk-web)
+
+
 [https://kryptokrauts.com/](https://kryptokrauts.com/)
+
+
+
+
+
 
 contains all sources and content for kryptokrauts.com
 
